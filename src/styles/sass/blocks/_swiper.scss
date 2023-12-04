@@ -1,0 +1,68 @@
+.swiper-pagination {
+  background: $blue;
+  padding: 6px 8px;
+  border-radius: 20px;
+}
+
+.swiper-pagination-bullet {
+  background: $white;
+  width: 10px;
+  height: 10px;
+}
+
+.swiper2 {
+  overflow: hidden;
+  width: 100%;
+}
+
+.product__cards {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.product-card {
+  flex-shrink: 0;
+}
+
+.swiper-button-next {
+  cursor: pointer;
+  text-align: center;
+  width: 45px;
+  height: 45px;
+  padding: 10px;
+  border-radius: 23px;
+  border: 1px solid #eaeaea;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.swiper-button-prev {
+  cursor: pointer;
+  text-align: center;
+  width: 45px;
+  height: 45px;
+  padding: 10px;
+  border-radius: 23px;
+  border: 1px solid #eaeaea;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.swiper-button-next:after {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.swiper-button-prev:after {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+@media (max-width: 360px) {
+  .swiper-button-prev {
+    display: none;
+  }
+
+  .swiper-button-next {
+    display: none;
+  }
+}

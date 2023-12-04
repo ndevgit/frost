@@ -1,0 +1,40 @@
+.categories {
+  padding-bottom: 40px;
+}
+
+.categories__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.categories-card__image {
+  max-width: 100%;
+  display: block;
+}
+
+.categories-card__title {
+  color: $blue;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.categories-card__description {
+  color: $black;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+
+.categories-card__link {
+  color: $blue;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+}

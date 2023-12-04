@@ -1,0 +1,39 @@
+.promo {
+  padding: 40px 0;
+}
+
+.promo__content {
+  display: flex;
+  gap: 24px;
+}
+
+.promo__content-left {
+  min-width: 0;
+  width: 100%;
+}
+
+.swiper-slide {
+  cursor: pointer;
+}
+
+.slide-image {
+  display: block;
+  max-width: 100%;
+}
+
+.promo__content-right {
+  display: flex;
+  gap: 24px;
+  width: 66%;
+}
+
+.content-right__column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.content-right__image {
+  display: block;
+  max-width: 100%;
+}

@@ -1,0 +1,215 @@
+@media (max-width: 1600px) {
+  .container {
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 360px) {
+  .header__content-top {
+    display: none;
+  }
+
+  .header__content-top_mobile {
+    display: flex;
+  }
+
+  .header__control {
+    gap: 12px;
+  }
+
+  .control-button {
+    border: none;
+    padding: 0;
+  }
+
+  .header__content-bottom {
+    display: none;
+  }
+
+  .header__content-bottom_mobile {
+    display: flex;
+  }
+
+  .call-order_mobile {
+    width: 42%;
+    align-self: center;
+    color: $blue-second;
+    border-bottom: 1px solid $blue-second;
+  }
+
+  .header__catalog {
+    align-items: center;
+    gap: 8px;
+  }
+
+  .catalog-button {
+    max-width: 264px;
+    margin: 0;
+  }
+
+  .catalog-button__image {
+    path {
+      fill: $blue-second;
+    }
+  }
+
+  .catalog-search__form {
+    margin: 0;
+    max-width: 328px;
+  }
+
+  .nav-list {
+    flex-direction: column;
+  }
+
+  .promo {
+    padding: 24px 0;
+  }
+
+  .promo__content {
+    flex-direction: column;
+  }
+
+  .promo__content-right {
+    gap: 12px;
+    width: 100%;
+  }
+
+  .categories__cards {
+    gap: 12px;
+    justify-content: center;
+  }
+
+  .categories-card {
+    max-width: 150px;
+  }
+
+  .categories-card__title {
+    font-size: 15px;
+  }
+
+  .categories-card__description {
+    font-size: 13px;
+  }
+
+  .categories-card__link {
+    font-size: 13px;
+  }
+
+  .product__control {
+    flex-direction: column;
+  }
+
+  .product__control-list {
+    flex-direction: column;
+  }
+
+  .product__control-button {
+    font-size: 16px;
+    border-radius: 8px;
+    max-width: 340px;
+  }
+
+  .product__control-link {
+    display: none;
+  }
+
+  .product__control-link_mobile {
+    display: inline;
+  }
+
+  .product__control_mobile {
+    display: flex;
+    margin: 0;
+  }
+
+  .product__cards {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .product__card {
+    max-width: 312px;
+  }
+
+  .product-card__price {
+    font-size: 18px;
+  }
+
+  .price-old {
+    font-size: 12px;
+  }
+
+  .discount {
+    font-size: 12px;
+  }
+
+  .product-card__description {
+    font-size: 14px;
+  }
+
+  .footer__content {
+    flex-direction: column;
+  }
+
+  .footer__content-left {
+    flex-direction: column;
+  }
+
+  .footer__logo {
+    width: 49%;
+  }
+
+  .store-description {
+    font-size: 14px;
+  }
+
+  .content__column-nav {
+    gap: 50px;
+  }
+
+  .footer__content-right {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .to-top {
+    bottom: -50px;
+    right: 130px;
+  }
+
+  .footer-contacts__call {
+    max-width: 312px;
+  }
+
+  .footer-contacts__mail {
+    max-width: 312px;
+  }
+
+  .footer-contacts__help {
+    max-width: 312px;
+  }
+
+  .control-button__footer {
+    max-width: 312px;
+  }
+
+  .subscribe {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .subscribe__input {
+    max-width: 312px;
+  }
+
+  .subscribe__button {
+    max-width: 312px;
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .subscribe-description {
+    font-size: 10px;
+  }
+}

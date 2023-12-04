@@ -1,0 +1,149 @@
+.header__content-top_mobile {
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $white;
+  padding: 8px 0;
+}
+
+.header__content-bottom_mobile {
+  display: none;
+  padding: 16px 0;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.catalog-button_mobile {
+  display: flex;
+  background: none;
+  border: none;
+  align-items: center;
+  max-width: 300px;
+  width: 100%;
+  cursor: pointer;
+  gap: 8px;
+}
+
+.mobile-menu {
+  background: $white;
+  display: flex;
+  flex-direction: column;
+  padding: 8px 16px 24px 16px;
+  display: none;
+}
+
+.mobile-menu_visible {
+  display: flex;
+}
+
+.mobile-menu__search {
+  margin-bottom: 28px;
+}
+
+.mobile-menu__contacts {
+  justify-content: space-between;
+  margin-bottom: 26px;
+}
+
+.call-mobile__item {
+  display: flex;
+  align-items: center;
+}
+
+.mobile-menu__nav {
+  background: $gray-six;
+  padding-top: 24px;
+}
+
+.nav-list__link_mobile {
+  color: $gray-seven;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.contacts__mobile {
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+}
+
+.contacts__mobile_blue {
+  flex-direction: column;
+}
+
+.contacts__call_mobile {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contacts__call-item_mobile {
+  display: flex;
+  align-items: center;
+}
+
+.contacts__call-item_mobile-noicon {
+  justify-content: end;
+}
+
+.contacts__call-item_mobile-blue {
+  display: flex;
+  padding: 10px 18px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 8px;
+  border: 1px solid $blue-second;
+  background: $blue-second;
+
+  box-shadow: 0px 1px 2px 0px $shadow;
+
+  max-width: 328px;
+  width: 100%;
+}
+
+.call-link_mobile-white {
+  color: $white;
+}
+
+.call-order_mobile {
+  text-align: center;
+}
+
+.contacts__mail-item_mobile {
+  display: flex;
+  align-items: center;
+}
+
+.nav-mobile {
+  margin-bottom: 79px;
+}
+
+.menu-button {
+  padding: 6px;
+  border-radius: 8px;
+  border: 1px solid $blue-second;
+  background: $white;
+  cursor: pointer;
+}
+
+.menu-button_close {
+  padding: 11px;
+}
+
+.menu-button__image-close {
+  display: none;
+  max-width: 100%;
+}
+
+.menu-button__image-close_visible {
+  display: block;
+}
+
+.product__control-nav_mobile {
+  display: none;
+}
